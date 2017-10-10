@@ -1,5 +1,5 @@
 /**
- * Copies a BMP piece by piece, just because.
+ * Resize a BMP image bit by bit
  */
 
 #include <stdio.h>
