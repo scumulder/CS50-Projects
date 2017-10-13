@@ -27,3 +27,14 @@ Week 9  - SQL
 Week 10 - JavaScript  
 Week 11 - The End  
 
+## Problem Sets
+
+Problem Set 0 Scratch | Language - Scratch  
+Problem Set 1 C | Language - C  
+Problem Set 2 Crypto | Language C  
+Problem Set 3 Game of Fifteen | Language - C  
+Problem Set 4 Forensics | Language - C  
+Problem Set 5 Mispellings | Language - C  
+Problem Set 6 Sentimental | Language - Python  
+Problem Set 7 C$50 Finance | Language - Python, SQL  
+Problem Set 8 Mashup: Language | JavaScript  
