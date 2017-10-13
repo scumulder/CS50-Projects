@@ -2,7 +2,7 @@
 This repository contains all my work from the CS50 online course through Harvard edX.
 
 
-CS50 (Computer Science 50) is an on-campus and online introductory course on computer science from Harvard. The course material is available for free on HarvadX with a range of certificates available for a fee. Other course on HarvardX can be found here: https://www.edx.org/school/harvardx
+CS50 (Computer Science 50) is an on-campus and online introductory course on computer science from Harvard. The course material is available for free on HarvadX with a range of certificates available for a fee. Other courses on HarvardX can be found here: https://www.edx.org/school/harvardx
 
 ## Syllabus
 
