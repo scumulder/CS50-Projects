@@ -37,4 +37,4 @@ Problem Set 4 Forensics | Language - C
 Problem Set 5 Mispellings | Language - C  
 Problem Set 6 Sentimental | Language - Python  
 Problem Set 7 C$50 Finance | Language - Python, SQL  
-Problem Set 8 Mashup: Language | JavaScript  
+Problem Set 8 Mashup | Language - JavaScript  
