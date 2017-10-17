@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block main %}
+
+
+    <style>
+    table, th, td {border: 1px solid black;}
+    </style>
+
+    <table style = "width:30%">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Symbol</th>
+        </tr>
+        <tr>
+            <td>{{ name }}</td>
+            <td>{{ price }}</td>
+            <td>{{ symbol }}</td>
+        </tr>
+    </table>
+{% endblock %}

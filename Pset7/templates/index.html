@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+
+    <style>
+        table, th, td {border: 1px solid black;}
+    </style>
+
+    <table style = "width:60%">
+        <tr bgcolor = #58D68D>
+            <th>Name</th>
+            <th>Symbol</th>
+            <th>Quantity</th>
+            <th>Current Price</th>
+            <th>Total Value</th>
+        </tr>
+        {%for stock in stocks%}
+            <tr>
+                <td>{{ stock["name"] }}</td>
+                <td>{{ stock["symbol"] }}</td>
+                <td>{{ stock["quantity"] }}</td>
+                <td>{{ stock["current"] }}</td>
+                <td>{{ stock["total"] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <table style = "width:60%">
+        <tr bgcolor = #CD6155>
+            <th>Cash Balance</th>
+            <th>Grand Total</th>
+        </tr>
+        <tr>
+            <td>${{ cash }}</td>
+            <td>{{ grand }}</td>
+        </tr>
+    </table>
+{% endblock %}

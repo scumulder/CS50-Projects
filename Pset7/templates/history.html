@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <style>
+        table, th, td {border: 1px solid black;}
+    </style>
+
+    <table style = "width:60%">
+        <tr bgcolor = #58D68D>
+            <th>Name</th>
+            <th>Symbol</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Type</th>
+            <th>Date/Time</th>
+        </tr>
+        {%for stock in stocks%}
+            <tr>
+                <td>{{ stock["name"] }}</td>
+                <td>{{ stock["symbol"] }}</td>
+                <td>{{ stock["quantity"] }}</td>
+                <td>{{ stock["price"] }}</td>
+                <td>{{ stock["type"] }}</td>
+                <td>{{ stock["dt"] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
